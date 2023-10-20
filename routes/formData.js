@@ -42,7 +42,7 @@ router.get("/getData", async (req, res) => {
   }
 });
 
-router.get("/getDataByphone", async (req, res) => {
+router.post("/getDataByphone", async (req, res) => {
   try {
     const { senderContact } = req.body;
 
